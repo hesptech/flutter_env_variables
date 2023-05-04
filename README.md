@@ -36,28 +36,25 @@ Further info on the flutter_dotenv package from pub.dev, are provided [here](htt
 
 Follow this step by step on how tocreate the file .env locally to be able to use the application:
 
-1. Run the following inline command
+1. Run the following inline command in the terminal, to make sure it has installed the flutter_dotenv package
 
 ```
-...
 flutter pub get
-...
- 
-in the terminal, to make sure it has installed the flutter_dotenv package
+```
 
 2. Create a .env file in the root of your project, which will remain only on the local repository:
 
-2. Add the following content in the .env file you just created:
+3. Add the following content in the .env file you just created:
+
 
 ```
-...
 FOO=foo
 BAR=bar
 FOOBAR=$FOO$BAR
 ESCAPED_DOLLAR_SIGN='$1000'
 # This is a comment
-...
 ```
+...
 
 3. That should be it, now you can run the app:
 
