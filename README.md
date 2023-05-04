@@ -26,7 +26,7 @@ git clone https://github.com/hesptech/flutter_env_variables.git
 cd flutter_env_variables
 ```
 
-### How to configure and set up
+## How to configure and set up
 
 Before using/testing the application, you need to have run the online flutter pub get command in the terminal, to make sure it has installed the flutter_dotenv package.
 
@@ -34,9 +34,9 @@ Apart from the following steps below to create the file .env locally with the co
 
 Further info on the flutter_dotenv package from pub.dev, are provided [here](https://pub.dev/packages/flutter_dotenv).
 
-Follow this step by step on how tocreate the file .env locally to be able to use the application:
+Follow this step by step on how to create the .env file locally to be able to run the application:
 
-1. Run the following inline command in the terminal, to make sure it has installed the flutter_dotenv package
+1. Run the following online command in the terminal, to make sure it has installed the flutter_dotenv package
 
 ```
 flutter pub get
@@ -54,9 +54,14 @@ FOOBAR=$FOO$BAR
 ESCAPED_DOLLAR_SIGN='$1000'
 # This is a comment
 ```
-...
 
-3. That should be it, now you can run the app:
+3. That should be it, now you can run the app.
+
+4. To personalize change the content in the .env file and the content referenced in lines String with dotenv.get('FOO').
+
+```
+dotenv.get('...')
+```
 
 ## terminal online cmd 
 
