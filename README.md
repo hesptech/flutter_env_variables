@@ -17,7 +17,7 @@ An Application prototype built with Dart and Flutter.
 
 ## Downloading the app
 
-You can follow these instructions to build the app and install it onto your device.
+You can follow these instructions to build the app and install it onto your local repository.
 
 ### Terminal online cmd
 
@@ -28,7 +28,7 @@ cd flutter_env_variables
 
 ## How to configure and set up
 
-Before using/testing the application, you need to have run the online flutter pub get command in the terminal, to make sure it has installed the flutter_dotenv package.
+Before using/testing the application, you need to have run the online flutter pub get command in the terminal, to make sure it has installed the flutter_dotenv package and created the file .env locally, which is explained how to below.
 
 Apart from the following steps below to create the file .env locally with the content that should not be uploaded to git repositories, all the necessary configuration setup is already done in the app. This includes adding in the pubspec.yaml file the dependencie of the package and the assets file path of the file, plus adding the code to load/initialize the required in the main.dart file.
 
@@ -57,7 +57,7 @@ ESCAPED_DOLLAR_SIGN='$1000'
 
 3. That should be it, now you can run the app.
 
-4. To personalize change the content in the .env file and the content referenced in lines String with dotenv.get('FOO').
+4. To personalize change the content in the .env file and the content referenced in lines ...
 
 ```
 dotenv.get('...')
